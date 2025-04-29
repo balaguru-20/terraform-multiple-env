@@ -21,6 +21,7 @@ variable "domain_name" {
 variable "common_tags" {
   type = map(any)
   default = {
-    Project = "expense"
+    Project   = "expense"
+    terraform = "true"
   }
 }
